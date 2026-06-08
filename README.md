@@ -1,8 +1,8 @@
 # Avo Toolkit for Zotero
 
-Builds a Word-ready note from a collection's PDF annotations in one click. Each
-annotation becomes a citekey-labeled, linked line — no footnotes, nothing to
-clean up.
+Turns a collection's PDF annotations into a Word-ready reference list in one click.
+Each annotation becomes `► [gerd01] highlighted text`, where `[gerd01]` is a live
+link that opens the PDF at that annotation — no footnotes, nothing to clean up.
 
 ## Install
 
@@ -17,6 +17,13 @@ automatically, so you only ever install once.
 
 ## Use
 
-1. Select a collection (or some items) that have annotations.
-2. Right-click → **Avo: Make Annotation Note** (also in the **Tools** menu).
-3. A new note appears, already selected. Press `Cmd+A`, `Cmd+C`, and paste into Word.
+Select a collection (or some items) that have annotations, then either right-click
+or use the **Tools** menu. Two options:
+
+- **Avo: Make Annotation Note** — creates a single Zotero note containing every
+  annotation, each as `► [citekey] highlighted text`. The note is auto-selected.
+- **Avo: Export Annotations to Word** — generates a Word document (`.docx`) of the
+  same content and opens it in Word automatically. No copy-paste needed.
+
+In both, each `[citekey]` is a live link that opens the source PDF at that exact
+annotation.
