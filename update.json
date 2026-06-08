@@ -1,0 +1,19 @@
+{
+  "addons": {
+    "avo-toolkit@jlupini": {
+      "updates": [
+        {
+          "version": "1.0.0",
+          "update_link": "https://github.com/jlupini/zotero-avo-toolkit-dist/releases/download/v1.0.0/avo-toolkit.xpi",
+          "update_hash": "sha512:3ae75cb57d54340a9244faf8fe201f1e50c6a16c026df6849047ae4a6ec2c9095da2f4c8f258afc480be8aad424b193e396ed2ff653331069d62ac660a628c40",
+          "applications": {
+            "zotero": {
+              "strict_min_version": "6.999",
+              "strict_max_version": "10.0.*"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
