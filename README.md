@@ -6,8 +6,12 @@ link that opens the PDF at that annotation — no footnotes, nothing to clean up
 
 ## Install
 
-1. Download the latest **`avo-toolkit.xpi`** from
+1. **Download** `avo-toolkit.xpi` from
    [Releases](https://github.com/jlupini/zotero-avo-toolkit-dist/releases/latest).
+   **In Firefox, right-click the file and choose "Save Link As…"** — a normal click
+   makes Firefox try to install it as a *browser* add-on and it will say the file is
+   "corrupt." (Chrome / Safari / Edge just download it normally.) You only need the
+   file saved to disk — Zotero installs it in the next steps.
 2. In Zotero, open **Tools → Plugins**.
 3. Click the **gear** icon (top-right) → **Install Plugin From File…**
 4. Select the `avo-toolkit.xpi` you downloaded. Done — no restart needed.
