@@ -3,9 +3,9 @@
     "avo-toolkit@jlupini": {
       "updates": [
         {
-          "version": "1.0.1",
-          "update_link": "https://github.com/jlupini/zotero-avo-toolkit-dist/releases/download/v1.0.1/avo-toolkit.xpi",
-          "update_hash": "sha512:35111b78eaa5437005717f4843c21d527e2c258ba5f1adb06b2b4ea045437f6e12fa4c0c1a707a7a9add5b0c680a0df5a56c48ddffd5333dc29f280c339604c5",
+          "version": "1.1.0",
+          "update_link": "https://github.com/jlupini/zotero-avo-toolkit-dist/releases/download/v1.1.0/avo-toolkit.xpi",
+          "update_hash": "sha512:4a0b50289c6bf7ce1a42304f5e3b70900adff4878bd3704d64194259d80250461064bc38781e456b0e938993921ff87f22776112fce7377f52d6acce152b7318",
           "applications": {
             "zotero": {
               "strict_min_version": "6.999",
